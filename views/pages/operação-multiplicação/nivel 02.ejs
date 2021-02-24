@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operação Multiplicação</title>
+    <link rel="stylesheet" href="/css/operação-soma/01/style.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+       <!-- Sidebar -->
+<div id="nav-bar" class="w3-sidebar w3-bar-block" style="width:10%">
+    <h3 class="w3-bar-item">Fases</h3>
+    <a href="#" class="w3-bar-item">Nível 1</a>
+    <a href="#" class="w3-bar-item">Nível 2</a>
+</div>
+    <div class="container" id="C-Menu">
+        <div id="menuS"></div>
+    </div>
+    <div class="container" id="C-Soma">
+            <div id="soma"></div>
+            <form id="caixa">
+                <label for="resposta">Resposta:</label> 
+                <input type="text" name="resposta" id="resposta" placeholder="Digite a resposta aqui">
+            </form>
+            <input type="submit" value="Verificar" id="verificar" onclick="verificarResposta()">
+
+        </div>
+        <div class="bg-modal">
+            <div class="modalContent">
+                <div class="fechar">+</div>
+                    <marquee behavior="" direction="right"><img class="character" src="/image/cards/_sheep.gif" alt=""></marquee>
+                <div class="box">
+                    <p>Parabéns !!! Você concluiu a Operação Multiplicação :)</p>
+                    <a href="/multiplicacao02" class="btn btn-info">Jogar Novamente</a>
+                    <a id="closeWindow" class="btn btn-success">Voltar</a>
+                </div>
+            </div>
+        </div>
+    <div class="container" id="C-Menu">
+        <div id="menuI">
+    
+        </div>
+    </div>
+    <script src="/js/operação-multiplicação/02/script.js"></script>
+</body>
+</html>

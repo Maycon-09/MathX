@@ -1,0 +1,12 @@
+<nav class="navbar navbar-dark bg-dark">
+    <a href="/"><img id="logo-nav" src="/image/Logo-MathX.png" alt=""></a>
+    <ul id="nav">
+        <% if (user) { %>
+            <a class="btn btn-light" href="#"><li><%= user.username %></li></a>
+            <a class="btn btn-light" href="/logout"><li>Sair</li></a>
+        <%} else { %>
+            <a class="btn btn-light" href="/Login"><li>Usuário</li></a>
+            <a class="btn btn-light" href="/"><li>Suporte</li></a>
+        <% } %>
+    </ul>
+</nav>

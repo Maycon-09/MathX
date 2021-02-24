@@ -1,0 +1,118 @@
+/* DEFINIR BACKGROUND  */
+body{
+    background: url('/image/background.jpg');
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    z-index: 999;
+    background: #7386D5;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+/* Textos  */
+#text-top{
+    text-align: start;
+}
+#text-title-welcome{
+    text-align: center;
+}
+#text-welcome {
+    text-align: justify;
+}
+#name_position {
+    padding: 15px;
+}
+/* //////// */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Header Login */
+#nav-header {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+#logo-position {
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo-nav{
+    width: 120px;
+    height: 90px;
+}
+#top{
+    margin-top: 50px;
+    height: 25vh;
+    background-color: rgb(193, 240, 255);
+    border: rgb(0, 0, 0) solid 1.25px;
+    padding: 15px;
+}
+#welcome {
+    margin-top: 20px;
+    height: 35vh;
+    background-color: rgb(193, 240, 255);
+    border: rgb(0, 0, 0) solid 1.25px;
+    padding: 15px;
+}
+
+#box-progress {
+    text-align: center;
+    margin-top: 20px;
+    height: 75vh;
+    background-color: rgb(193, 240, 255);
+    border: rgb(0, 0, 0) solid 1.25px;
+    padding: 15px;
+}
+#box {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    height: 120vh;
+    display: flex;
+    background-color: rgb(193, 240, 255);
+    border: rgb(0, 0, 0) solid 1.25px;
+}
+
+/* CheckBox */
+#checkbox{
+    margin-left: 30px;
+    padding: 9px;
+}
+.form-check-input{
+    background-color: blue !important;
+}
+.disabled {
+    text-decoration: none;
+    color: gray;
+    cursor: default;
+    pointer-events: none;
+  }
+.level {
+    margin: 45px;
+    padding: 15px; 
+    display: flex;
+}
+
+#footer {
+    background-color: #009688;
+}
+
+/* Character */
+.character {
+    width: 45vh;
+    padding: 25px;
+    margin-bottom: 35px;
+}

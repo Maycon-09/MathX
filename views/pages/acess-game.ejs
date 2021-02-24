@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/acess-game/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>MathX</title>
+</head>
+<body>
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+        <button class="w3-bar-item w3-button w3-large"
+        onclick="w3_close()">Fechar &times;</button>
+        <% if (user) { %>
+            <h4 id="name_position">Olá <%= user.username %></h4>  
+        <%} else { %> <% } %>
+        <a href="#" class="w3-bar-item w3-button">Conhecendo os números</a>
+        <a href="#" class="w3-bar-item w3-button">Jogo da Memoria</a>
+        <a href="#" class="w3-bar-item w3-button">Operação: Soma</a>
+      </div>
+      
+      <div id="main">
+      
+      <div id="nav-header" class="w3-teal">
+        <button id="openNav" class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
+        <div class="w3-container">
+            <nav  class="navbar navbar-dark">
+                <a href="/" id="logo-position"><img id="logo-nav" src="image/Logo-MathX.png" alt=""></a>
+            </nav>        
+        </div>
+      </div>
+      
+    
+    <div class="container">
+        <div id="top">
+            <h4 id="text-top">Matemática: Um novo mundo de descobertas</h4>
+            <a href=""><h9>Conhecendo os números</h9></a><a href=""><h9>-> Jogo da Memória</h9></a>
+            <a href=""><h9>-> Soma</h9></a><a href=""><h9>-> Subtração</h9></a>
+            <a href=""><h9>-> Multiplicação</h9></a><a href=""><h9>-> Divisão</h9></a>
+            
+        </div>
+        <div id="welcome">
+            <h3 id="text-title-welcome">Bem Vindo(a)</h3>
+            <p id="text-welcome">É com enorme satisfação que apresentamos o projeto MathX, uma nova forma de introduzir o 
+                ensino da Matemática. É gratificante contar com a sua presença, esperamos que você 
+                (tutor) e o seu aluno, tenham uma ótima experiencia. Como explicado anteriormente, é 
+                necessário que a criança seja auxiliada até o final da experiência, para que haja o 
+                acompanhamento do progresso e a pertinência dos assuntos. Boa Sorte !!
+            </p>
+        </div>
+        <div id="box-progress">
+            <h4>Progresso</h4>
+            <div id="progressCharacter" class="box-character">
+                
+            </div>
+            <div class="progress">
+                <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+        <div id="box">
+            <div id="box-level">
+                <div class="level">
+                    <a id="lvl-01" href="#" ><h5>Conhecendo os Números</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled01"
+                        disabled
+                      />
+                      </div>
+                </div>
+                <div class="level">
+                    <a id="lvl-02" href="#"><h5>O Jogo da Memória para memorizar e comparar os números</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled02"
+                        disabled
+                      />
+                      </div>
+                </div>
+                <div class="level">
+                    <a id="lvl-03" href="#"><h5>Conhecendo a operação Soma</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled03"
+                        disabled
+                      />
+                      </div>
+                </div>
+                <div class="level">
+                    <a id="lvl-04" href="#"><h5>Conhecendo a operação Subtração</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled04"
+                        disabled
+                      />
+                      </div>
+                </div>
+                <div class="level">
+                    <a id="lvl-05" href="#"><h5>Conhecendo a operação Multiplicação</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled05"
+                        disabled
+                      />
+                      </div>
+                </div>
+                <div class="level">
+                    <a id="lvl-06" href="#"><h5>Conhecendo a operação Divisão</h5></a>
+                    <div id="checkbox" class="check">
+                        <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value="1"
+                        id="flexCheckDisabled06"
+                        disabled
+                      />
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <footer id="footer" class=" text-center text-lg-start">
+        <div  class="text-center p-3 text-white">
+            2021 Copyright:
+            <a class="text-white" href="/">MathX</a>
+        </div>
+    </footer>
+<script src="/js/home/acess-game/acess-game.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+body{
+    background: url('/image/home-game/BG.png');
+}
+#box-move,
+#box-play {
+    display: flex;
+}
+#animation-main {
+    height: 195px;
+    animation-duration: 6s;
+    animation-name: moveMath;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes moveMath {
+    from {
+        margin-top: 20%;
+    }
+    to {
+        margin-top: 11%;
+    }
+}
+
+#button-play {
+    height: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}

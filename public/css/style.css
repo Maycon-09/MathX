@@ -1,0 +1,38 @@
+/* DEFINIR BACKGROUND  */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+#logo-nav{
+    width: 120px;
+    height: 90px;
+    margin-left: 15px;
+}
+
+#box-carousel {
+    height: 60vh;
+    display: flex;
+    background-color: #343a40;
+}
+
+#carousel {
+    height: 60vh;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#download {
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    background-color: #343a40;
+}
+#button-Download {
+    margin-left: auto;
+    margin-right: auto;
+}
