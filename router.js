@@ -16,7 +16,7 @@ router.get('/logout', userController.logout)
 router.post('/logout', progressController.saveProgress)
 
 // Introdução - Números e Operações
-router.get('/introducao', gameController.numerosOperações)
+router.get('/introducao', gameController.numerosOperacoes)
 // jogo da memoria
 router.get('/homeGame', gameController.homeGame)
 router.get('/jogoMemoria01', gameController.memoria01)

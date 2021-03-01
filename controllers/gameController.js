@@ -6,8 +6,8 @@ exports.acess = function (req, res) {
 }
 
 // introdução - números e operações
-exports.numerosOperações = function (req, res) {
-    res.render('pages/numeros-operações/números-operações', {layout: 'pages/numeros-operações/números-operações'})
+exports.numerosOperacoes = function (req, res) {
+    res.render('pages/numeros-operações/numeros-operacoes', {layout: 'pages/numeros-operações/numeros-operacoes'})
 }
 
 // jogo da memoria
