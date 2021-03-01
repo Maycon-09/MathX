@@ -1,5 +1,4 @@
 // FALTA DEFINIR UMA FUNÇÃO PARA SORTEAR AS IMAGENS - NIVEL 03 E 04
-var progresso = require('../public/js/saveProgresso');
 var acertos= 0;
 const cardBoard = document.querySelector("#memoria");
 const imagensNum = [
@@ -134,5 +133,4 @@ cards.forEach(card => card.addEventListener("click", flipCard));
 
 document.getElementById('closeWindow').onclick = () => {
     window.close();
-    return 1;
 }

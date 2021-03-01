@@ -49,7 +49,7 @@ console.log(randFir, randSec)
 
     cardOperacaoHTML += `
             <div class= "card" data-card= "Operacao.png">
-                    <img class= "frontal-face" src= "/image/cards/operacao.png"> 
+                    <img class= "frontal-face" src= "/image/cards/O 02.png"> 
             </div>
             `
         ;

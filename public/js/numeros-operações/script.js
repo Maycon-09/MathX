@@ -24,15 +24,10 @@ const imagensD = [
     "D 09.png", 
 ];
 const imagensO = [
-    "D 01.png",
-    "D 02.png",
-    "D 03.png",
-    "D 04.png",
-    "D 05.png",
-    "D 06.png",
-    "D 07.png",
-    "D 08.png",
-    "D 09.png", 
+    "O 01.png",
+    "O 02.png",
+    "O 03.png",
+    "O 04.png",
 ];
 let cardFirHTML = "";
 let cardSecHTML = "";
@@ -56,8 +51,8 @@ position = 1;
 position = 1;
     imagensO.forEach(img => {
         cardOperacaoHTML += `
-        <div id= "slide-${(position+4)}" class= "card" data-card= "Operacao.png">
-            <img class= "card-face" src= "/image/cards/operacao.png"> 
+        <div id= "slide-${(position+4)}" class= "card" data-card="${img}">
+            <img class= "card-face" src= "/image/cards/${img}"> 
         </div>
         `
     }); 
