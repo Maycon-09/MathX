@@ -3,7 +3,7 @@ const bcrypt = require('bcryptjs');
 
 let User = function(data) {
     this.data = data
-    this.erros = []
+    this.errors = []
 }
 
 User.prototype.login = function() {
